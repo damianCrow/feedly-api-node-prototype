@@ -1,6 +1,6 @@
 In order to get the node wrapper to work with a developer accesstoken rather than client_id and client_secret I had to hack the feedly plugin slightly and remove the auth functions.
 
-THIS IS A TERRIBLE HAC BUT NEEDS MUST FOR NOW!
+THIS IS A TERRIBLE HACK BUT NEEDS MUST FOR NOW!
 
 
 module.exports = Feedly = (function() {
